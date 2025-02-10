@@ -1,0 +1,122 @@
+/* CFFDRS Colours
+Grey: #2f3329
+Orange: #ff5e17
+Light: #f4efed */
+
+/* Homepage (removing sidebar, top navbar, and footer) */
+
+body.homepage>div.container>div.row>div.col-md-3, body.homepage>footer {
+    display: none;
+}
+
+body.homepage ul.nav.navbar-nav {
+    display: none;
+}
+
+body.homepage>div.container>div.row>div.col-md-9 {
+    margin-left: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* Theming */
+
+div {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p, li {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+body {
+    background-color: #2f3329;
+}
+
+img {
+    background-color: transparent!important;
+    border: none!important;
+}
+
+/* Page Header (Site Navigation) */
+
+.navbar {
+    background-color: black!important;
+    border-style: solid;
+    border-width: 0px 2px 2px 2px;
+    border-color: #ff5e17;
+    border-radius: 7px;
+}
+
+.navbar-brand {
+    color: #ff5e17!important;
+}
+
+.navbar a.nav-link {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-left: 16px!important;
+}
+
+/* Remove <-Previous Next-> */
+
+ul.nav.navbar-nav.ms-md-auto {
+  display: none;
+}
+
+/* Links */
+
+a {
+    color: #ff5e17;
+}
+    /* font-size: 0.93em;
+    font-weight: bold; */
+
+.navbar a, .bs-sidebar a {
+    color: #dfd7ca;
+}
+
+.navbar a.nav-link.active {
+    color: red;
+}
+
+div.col-md-3 a.nav-link {
+    font-weight:normal!important;
+}
+
+a:hover {
+    color: red!important;
+  }
+
+/* Sidebar (Table of Contents) */
+
+.bs-sidebar .nav {
+    background-color: black;
+}
+
+.bs-sidebar {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff5e17;
+    border-radius: 7px;
+}
+
+/* Markdown Separator (---) */
+
+hr {
+    border-color: #ff5e17!important;
+}
+
+/* Buttons */
+
+button.btn, button.btn:hover {
+    color: #dfd7ca;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff5e17;
+}
