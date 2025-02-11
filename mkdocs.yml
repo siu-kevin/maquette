@@ -4,7 +4,7 @@ nav:
     - Code: code.md
     - Tutoriel: tutoriel.md
     - Autre: autre.md
-    - Contactez-nous: contactez-nous.md
+    - Contacter: contacter.md
     - English: https://siu-kevin.github.io/mock-up/home/
 theme:
     name: mkdocs
