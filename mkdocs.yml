@@ -3,7 +3,7 @@ nav:
     - Accueil: accueil.md
     - Code: code.md
     - Tutoriel: tutoriel.md
-    - Autre: autre.md
+    - Ressources: ressources.md
     - Contacter: contacter.md
     - English: https://siu-kevin.github.io/mock-up/home/
 not_in_nav:
