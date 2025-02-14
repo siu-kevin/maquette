@@ -2,7 +2,7 @@ site_name: MAQUETTE
 nav:
     - Accueil: accueil.md
     - Code: code.md
-    - Tutoriel: tutoriel.md
+    - Tutoriels: tutoriels.md
     - Ressources: ressources.md
     - Contacter: contacter.md
     - English: https://siu-kevin.github.io/mock-up/home/
